@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+		
+		<title>Blank Template</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<main>
+			<h1>Drinkify</h1>
+			<p>This is an API that will help you to find recipes for drinks.
+				Enter the ingredient in the field.
+				On its basis I will search for recipes containing the ingredient you are interested in.
+				For example, enter "gin" in the search engine</p>
+			<form>
+				<input id="input" type="text" name="searchField" value="" placeholder="        Example: gin">
+				<select id="selecting" name="SearchBy">
+					<option value="">--Search By--</option>
+					<option value="Ingredients">Ingredients</option>
+					<option value="Name">Name</option>
+				</select>
+				<button id="button">Search</button>
+			</form>
+
+			<section id="items" class="hidden">
+				<h2 id="name">Test</h2>
+				<span>Type:</span>
+				<span id="type"></span>
+				<button id="arrow">-></button>
+				<section id="info">
+					<img id="image" src="" alt="">
+					<p id="instructions"></p>
+
+					<div id="ingred">
+						<ul>
+						</ul>
+					</div>
+					
+
+				</section>
+			</section>
+
+		</main>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

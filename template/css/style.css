@@ -110,7 +110,7 @@ button:active {
 #items {
   background-color: rgba(255, 255, 255, 0.9);
   margin-top: 50px;
-  height: 90vh;
+  height: 100vh;
 }
 
 .hidden {
